@@ -1,0 +1,141 @@
+body {
+    width: 1520px;
+    background: #f9f9f9;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+:root {
+    --border: 1px solid;
+}
+.container{
+    background: #eeeded;
+}
+
+.header {
+    &__nav {
+        background: #6D5B6A;
+        width: 100%;
+    }
+
+    &__list {
+        margin: 0 auto;
+        width: 1110px;
+        height: 40px;
+        // border: var(--border);
+        align-items: center;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__tel {
+        align-items: center;
+        // padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    &__tel h5 {
+        margin-top: -12px;
+        margin-bottom: -4px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        line-height: 22px;
+        /* identical to box height */
+        color: #FFFFFF;
+
+    }
+
+    &__item:nth-child(2) {
+        background: #8d7b8b;
+        height: 40px;
+        margin-left: -80px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    &__item:nth-child(1) {
+        margin-left: -39px;
+    }
+
+    &__item a {
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 22px;
+        /* identical to box height */
+        color: #FFFFFF;
+        margin-right: 5px;
+    }
+
+    &__item i {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    #phon {
+        padding-top: 5px;
+    }
+
+    &__lists {
+        width: 1140px;
+        display: flex;
+        // border: var(--border);
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        padding-top: 10px;
+        padding-left: 0px;
+
+    }
+
+    &__items a {
+        text-decoration: none;
+        color: #5B4A58;
+    }
+    .header__items a:hover{
+        border-bottom: 1px solid #3d323c;
+        color: #3d323c;
+        
+    }
+    #fa{
+        display: none;
+    }
+    #menyu{
+        display: none;
+    }
+    &__openlest{
+        width: 350px;
+        height: 350px;
+        border: var(--border);
+        position: absolute;
+        top: 100%;
+        left: 38%;
+        background: rgba(0, 0, 0, 0.518);
+        color: aliceblue;
+        border-radius: 15px;
+        list-style: none;
+        visibility: hidden;
+        &__items{
+            width: 100%;
+            border: 2px solid;
+            border-radius: 30px;
+        }
+    }
+        #dic{
+            position: absolute;
+            left: 38%;
+            top: 80%;
+            padding: 9px 16px;
+            background-color: aqua;
+            border-radius: 30px;
+            border: none;
+        }
+        
+    
+    }

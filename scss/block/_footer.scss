@@ -1,0 +1,162 @@
+:root {
+    --border: 1px solid;
+}
+
+.footer {
+    width: 1520px;
+    height: 439px;
+    background: #5B4A58;
+    margin-top: 100px;
+
+    &__text {
+        width: 1520px;
+        align-items: center;
+        margin: 0 auto;
+        background: #746471;
+    }
+
+    &__list {
+        width: 1140px;
+        height: 88px;
+        // border: var(--border);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        list-style: none;
+        padding: 0px;
+    }
+
+    &__item a {
+        text-decoration: none;
+        color: #FFFFFF;
+        line-height: 22px;
+
+    }
+
+    &__lists {
+        list-style: none;
+    }
+
+    &__items a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    &__texts {
+        width: 1140px;
+        height: 270px;
+        // border: var(--border);
+        margin: 0 auto;
+        padding: 0px;
+        margin-top: 20px;
+        display: flex;
+        padding-bottom: 20px;
+    }
+
+    &__lists {
+        margin-left: -40px;
+    }
+
+    &__items {
+        margin-top: 20px;
+        color: #FFFFFF;
+    }
+
+    &__items i {
+        margin-right: 10px;
+    }
+
+    #pn {
+        margin-left: 22px;
+    }
+
+    &__last {
+        list-style: none;
+        margin-left: 70px;
+    }
+
+    &__href a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    &__href {
+        margin-top: 20px;
+    }
+
+    &__name {
+        display: flex;
+        color: #FFFFFF;
+    }
+
+    #id {
+        display: grid;
+    }
+
+    #textin {
+        width: 451px;
+        height: 75px;
+        margin-top: 20px;
+    }
+
+    #inp {
+        width: 218px;
+        height: 33px;
+        margin-top: 10px;
+    }
+
+    #inp1 {
+        width: 218px;
+        height: 33px;
+        margin-left: 6px;
+        margin-top: 10px;
+    }
+
+    &__type {
+        width: 300px;
+        padding-left: 156px;
+        color: #FFFFFF;
+        margin-top: 20px;
+    }
+
+    #bts {
+        width: 218px;
+        height: 33px;
+        margin-top: 10px;
+        margin-left: 240px;
+        border-radius: 5px;
+        background: #6AAE55;
+        border: #6AAE55;
+        font-size: 16px;
+        line-height: 22px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+
+
+    }
+    #lavka{
+        text-align: center;
+        color: #A69BA4;
+        line-height: 100%;
+
+    }
+    #one{
+        color: #6AAE55;
+    }
+    #two{
+        color: #6AAE55;
+    }
+    #tree{
+        color: #6AAE55;
+    }
+    &__href a:hover{
+        color: #6AAE55;
+    }
+    
+    &__items a:hover{
+        color: #6AAE55;
+    }
+}
